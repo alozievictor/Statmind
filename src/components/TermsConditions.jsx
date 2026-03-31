@@ -76,9 +76,9 @@ const sections = [
 
 const TermsConditions = () => {
   return (
-    <div className="py-20 px-4 min-h-screen bg-brand-bg">
+    <div className="py-20 px-4 min-h-screen">
       <div className="max-w-4xl mx-auto">
-        <div className="bg-white/3 border border-white/10 rounded-3xl p-6 md:p-10">
+        <div className=" border border-white/10 rounded-3xl p-6 md:p-10">
           <div className="text-center mb-10 md:mb-12">
             <div className="w-16 h-16 rounded-xl bg-brand-accent/10 border border-brand-accent/20 flex items-center justify-center mx-auto mb-5">
               <Scale className="w-7 h-7 text-brand-accent" />
