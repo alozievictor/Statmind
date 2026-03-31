@@ -80,10 +80,10 @@ const TermsConditions = () => {
       <div className="max-w-4xl mx-auto">
         <div className="bg-white/3 border border-white/10 rounded-3xl p-6 md:p-10">
           <div className="text-center mb-10 md:mb-12">
-            <div className="w-20 h-20 rounded-2xl bg-brand-accent/10 border border-brand-accent/20 flex items-center justify-center mx-auto mb-5">
-              <Scale className="w-10 h-10 text-brand-accent" />
+            <div className="w-16 h-16 rounded-xl bg-brand-accent/10 border border-brand-accent/20 flex items-center justify-center mx-auto mb-5">
+              <Scale className="w-7 h-7 text-brand-accent" />
             </div>
-            <h1 className="text-3xl font-bold text-gray-900 dark:text-white mb-2">Terms Of Service</h1>
+            <h1 className="text-2xl font-bold text-gray-900 dark:text-white mb-2">Terms Of Service</h1>
             <p className="text-gray-400 dark:text-gray-500 mt-2 text-sm">Effective : March 15, 2026</p>
           </div>
 

@@ -16,30 +16,10 @@ import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 
 const Legal = () => {
-  // const sections = [
-  //   {
-  //     icon: <Database className="w-6 h-6 text-brand-accent" />,
-  //     title: "Information We Collect",
-  //     content:
-  //       "We collect information you provide directly to us, such as when you create an account, place bets, or contact us for support. This includes your name, email address, phone number, and betting preferences.",
-  //   },
-  //   {
-  //     icon: <FileText className="w-6 h-6 text-brand-purple" />,
-  //     title: "How We Use Data",
-  //     content:
-  //       "Your information helps us provide and improve our betting prediction services. We use this information to provide personalized recommendations, process bets, and improve our AI prediction algorithms.",
-  //   },
-  //   {
-  //     icon: <Lock className="w-6 h-6 text-red-400" />,
-  //     title: "Data Security",
-  //     content:
-  //       "We implement industry-standard security measures to protect your personal information. Your data is encrypted both in transit and at rest, and we never sell your data to third parties.",
-  //   },
-  // ];
 
   return (
-    <div className="py-20 px-4 min-h-screen bg-brand-bg">
-      <div className="transition-colors duration-300 py-12 px-4">
+    <div className="py-10 px-4 min-h-screen bg-brand-bg">
+      <div className="transition-colors duration-300 py-3 px-4">
         <div className="w-[90%] md:w-[85%] mx-auto">
 
           <motion.div
@@ -49,13 +29,13 @@ const Legal = () => {
           >
             <div className="p-8 md:p-12">
               <div className="text-center mb-12">
-                <div className="w-20 h-20 bg-blue-100 dark:bg-blue-900/30 rounded-2xl flex items-center justify-center mx-auto mb-6">
-                  <Shield className="text-blue-600 dark:text-blue-400 w-10 h-10" />
+                <div className="w-16 h-16 bg-blue-100 dark:bg-blue-900/30 rounded-xl flex items-center justify-center mx-auto mb-6">
+                  <Shield className="text-blue-600 dark:text-blue-400 w-7 h-7" />
                 </div>
-                <h1 className="text-3xl font-bold text-gray-900 dark:text-white mb-2">
+                <h1 className="text-2xl font-bold text-gray-900 dark:text-white mb-2">
                   Privacy Policy
                 </h1>
-                <h2 className="text-xl font-medium text-gray-600 dark:text-gray-300">
+                <h2 className="text-lg font-medium text-gray-600 dark:text-gray-300">
                   Your Privacy Matters
                 </h2>
                 <p className="text-gray-400 dark:text-gray-500 mt-2 text-sm">

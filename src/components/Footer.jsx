@@ -42,12 +42,12 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
           {/* Brand */}
-          <div className="space-y-6 ">
-            <Link to="/" className="flex items-center gap-2 group border border-red-500">
+          <div className="space-y-6">
+            <Link to="/" className="flex items-center gap-2 group">
               <img
                 src={logo}
                 alt="Statmind logo"
-                className="w-44 h-44 object-contain"
+                className="w-44 h-10 object-contain"
               />
             </Link>
             <p className="text-gray-400 leading-relaxed text-sm max-w-xs">

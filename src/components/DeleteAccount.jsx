@@ -102,10 +102,10 @@ const DeleteAccount = () => {
         <div className="p-8 md:p-10">
           {/* Header */}
           <div className="flex flex-col items-center mb-8">
-            <div className="w-20 h-20 bg-red-500/10 border border-red-500/20 rounded-3xl flex items-center justify-center mb-6 transition-transform hover:scale-110 duration-500">
-              <Trash2 className="text-red-500 w-10 h-10" />
+            <div className="w-16 h-16 bg-red-500/10 border border-red-500/20 rounded-xl flex items-center justify-center mb-6 transition-transform hover:scale-110 duration-500">
+              <Trash2 className="text-red-500 w-6 h-6" />
             </div>
-            <h1 className="text-3xl font-black text-white tracking-tight">Delete Account</h1>
+            <h1 className="text-2xl font-black text-white tracking-tight">Delete Account</h1>
             <p className="text-gray-400 text-center mt-3 text-sm leading-relaxed max-w-[280px]">
               {step === 1 && "Security check: Please verify your credentials to continue."}
               {step === 2 && "A 6-digit code has been sent to your email address."}

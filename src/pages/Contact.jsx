@@ -31,7 +31,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="text-xs text-gray-500 uppercase font-bold tracking-wider">Email Us</p>
-                  <p className="text-lg font-medium">support@statmind.app</p>
+                  <p className="text-lg font-medium">legal@statmind.com</p>
                 </div>
               </div>
               <div className="flex items-center gap-4 text-gray-300">
